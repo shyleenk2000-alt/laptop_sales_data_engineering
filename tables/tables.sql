@@ -1,0 +1,11 @@
+
+SELECT * FROM  [computer_std].[dbo].[dim_date]
+SELECT * FROM  [computer_std].[dbo].[dim_employee]
+SELECT * FROM  [computer_std].[dbo].[dim_location]
+SELECT * FROM  [computer_std].[dbo].[dim_customer]
+SELECT * FROM  [computer_std].[dbo].[dim_channel]
+SELECT * FROM  [computer_std].[dbo].[dim_priority]
+SELECT * FROM  [computer_std].[dbo].[dim_payment_method]
+SELECT * FROM  [computer_std].[dbo].[dim_store]
+SELECT * FROM  [computer_std].[dbo].[dim_product]
+SELECT * FROM  [computer_std].[dbo].[dim_fact_pc_sales]
