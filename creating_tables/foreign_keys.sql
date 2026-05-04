@@ -1,0 +1,29 @@
+
+--CONSTRAINT fk_CustomerID
+	           --foreign key (CustomerID)
+			  -- references [computer_std]. [dbo].[dim_customer] (CustomerID),
+	--CONSTRAINT fk_ChannelID
+	            --foreign key (ChannelID)
+				--references [computer_std]. [dbo].[dim_channel] (ChannelID),
+	--CONSTRAINT fk_DateID
+	         -- foreign key (DateID)
+			  -- references [computer_std]. [dbo].[dim_date] (DateID),
+	--CONSTRAINT fk_EmployeeID
+	           --foreign key (EmployeeID)
+			  -- references [computer_std]. [dbo].[dim_employee] (EmployeeID),
+	--CONSTRAINT fk_LocationID
+	          -- foreign key (LocationID)
+			   --references [computer_std]. [dbo].[dim_location] (LocationID),
+	--CONSTRAINT fk_PriorityID
+	          --foreign key (PriorityID)
+			 -- references [computer_std]. [dbo].[dim_priority] (PriorityID),
+	--CONSTRAINT fk_PaymentMethodID
+	          -- foreign key (PaymentMethodID)
+			   --references [computer_std]. [dbo].[dim_payment_method] (PaymentMethodID),
+	--CONSTRAINT fk_StoreID
+	           --foreign key (StoreID)
+			   --references [computer_std]. [dbo].[dim_store] (StoreID),
+	--CONSTRAINT fk_ProductID
+	           --foreign key (ProductID)
+			  -- references [computer_std]. [dbo].[dim_product] (ProductID),
+  
